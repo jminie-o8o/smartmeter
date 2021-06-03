@@ -2,8 +2,6 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var ctx1 = document.getElementById('myChart1').getContext('2d');
 var ctx2 = document.getElementById('myChart2').getContext('2d');
 var ctx3 = document.getElementById('myChart3').getContext('2d');
-ctx2.height = 100;
-ctx3.height = 100;
 
 var myChart = new Chart(ctx, {
   type: 'line',
