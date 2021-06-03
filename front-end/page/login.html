@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/login.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../assets/img/logo.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <title>Login Page</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="center">
+        <div>
+          <img class="main__center-avatar" src="../assets/img/logo.png" />
+        </div>
+        <div class="main__center-a">탄산수, 프록티하네</div>
+        <div class="main__center-b">스마트미터 실시간 전력 확인 서비스</div>
+      </div>
+
+      <div action="index.html" method="post" class="loginForm">
+        <h2>로그인</h2>
+        <div class="idForm">
+          <input type="text" class="id" id="id" placeholder="아이디" />
+        </div>
+        <div class="passForm">
+          <input type="password" class="pw" id="pw" placeholder="비밀번호" />
+        </div>
+        <button type="button" class="btn" id="submit">로그인</button>
+
+        <div class="bottomText">
+          <div><span> 아이디가 없으신가요?</span></div>
+          <div class="signup"><a href="signup.html">회원가입하러가기</a></div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/login.js"></script>
+  </body>
+</html>
